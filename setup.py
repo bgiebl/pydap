@@ -129,6 +129,7 @@ setup(name='pydap',
       entry_points="""
             [pydap.handler]
             nc = pydap.handlers.netcdf:NetCDFHandler
+            gb = pydap.handlers.grib:GRIBHandler
 
             [pydap.response]
             das = pydap.responses.das:DASResponse
